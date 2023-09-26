@@ -32,6 +32,16 @@ body {
   max-width: 800px;
 }
 
+.main-pic {
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.about-pic {
+  border-radius: 20px;
+  max-height: 400px;
+}
+
 h1,
 h2,
 h3 {
@@ -40,43 +50,28 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
-}
-
-h2 {
-  font-size: 48px;
+  font-size: 50px;
   padding: 10px;
 }
 
+h2 {
+  font-size: 23px;
+
+  opacity: 0.7;
+}
+
 h3 {
-  font-size: 24px;
+  font-size: 23px;
   opacity: 0.7;
   padding-bottom: 10px;
 }
 
-.information-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
+.about-me {
+  padding: 30px 0;
 }
 
-.information-links a {
-  text-decoration: none;
-  text-transform: capitalize;
-  margin: 20px;
-  border-radius: 9px;
-  padding: 10px;
-}
-
-.contact-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-.about-link {
-  background: white;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+.about-me-containers {
+  gap: 2rem;
 }
 
 .about-link:hover {
@@ -97,7 +92,6 @@ h3 {
 }
 
 p {
-  background: var(--secondary-color);
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
