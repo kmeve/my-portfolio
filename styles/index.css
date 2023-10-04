@@ -34,8 +34,7 @@
 
 :root {
   --primary-color: #007cb9;
-  --secondary-color: #d5eeff;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --main-text-family: "Playball", cursive;
 }
 
