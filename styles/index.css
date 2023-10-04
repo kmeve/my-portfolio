@@ -19,6 +19,17 @@
   .main-page {
     display: none;
   }
+  .small-pic{
+    display: flex !important;
+    justify-content: center;
+  }
+
+  .tech-info{
+    display: flex !important;
+    justify-content: center;
+  }
+
+  
 }
 
 :root {
@@ -48,6 +59,7 @@ h4 {
 
 .headings {
   font-family: "Raleway", sans-serif;
+  
 }
 
 h1 {
@@ -85,7 +97,7 @@ h5 {
   text-align: center;
 }
 
-.work-link a{
+.work-link a {
   font-family: "Raleway", sans-serif;
 }
 
@@ -139,7 +151,7 @@ p {
 }
 
 .work-pic {
-  max-width: 700px;
+  
   display: block;
   margin: 0 auto;
   border-radius: 10px;
@@ -187,6 +199,6 @@ p {
   color: white;
 }
 
-.contact-info{
+.contact-info {
   padding: 0px;
 }
