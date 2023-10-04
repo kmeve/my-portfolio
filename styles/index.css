@@ -1,7 +1,7 @@
 @media (max-width: 575.98px) {
   h1 {
     font-size: 70px !important;
-    color: #007cb9;
+
     padding-bottom: 10px;
   }
 
@@ -25,6 +25,7 @@
   --primary-color: #007cb9;
   --secondary-color: #d5eeff;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --main-text-family: "Playball", cursive;
 }
 
 body {
@@ -39,19 +40,29 @@ body {
 
 h1,
 h2,
-h3, h4 {
+h3,
+h4 {
   text-align: center;
   margin: 0;
+}
+
+.headings {
+  font-family: "Raleway", sans-serif;
 }
 
 h1 {
   font-size: 50px;
   padding: 10px;
+  font-family: var(--main-text-family);
+}
+
+#logo {
+  font-family: var(--main-text-family);
 }
 
 h2 {
   font-size: 23px;
-
+  font-family: "Raleway", sans-serif;
   opacity: 0.7;
 }
 
@@ -59,12 +70,23 @@ h3 {
   font-size: 23px;
   opacity: 0.7;
   padding-bottom: 10px;
+  font-family: "Raleway", sans-serif;
 }
 
 h4 {
   font-size: 19px;
   opacity: 0.7;
   padding-bottom: 10px;
+  font-family: "Raleway", sans-serif;
+}
+
+h5 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+
+.work-link a{
+  font-family: "Raleway", sans-serif;
 }
 
 .about-me {
@@ -86,7 +108,12 @@ h4 {
 }
 
 .main-text {
-  display: flex;
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
   margin: 30px 0;
 }
 
@@ -96,16 +123,19 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+  font-family: "Raleway", sans-serif;
 }
 
 .weather-work p,
 .read-to-kid-work p,
 .scetch-work p {
   padding: 10px 20px;
+  font-family: "Raleway", sans-serif;
 }
 
 .main-text p {
   margin: 10px;
+  font-family: "Raleway", sans-serif;
 }
 
 .work-pic {
@@ -133,30 +163,30 @@ p {
 .contact {
   display: flex;
   justify-content: center;
-  
 }
 
-.contact a{
-margin: 30px;
-padding: 15px 18px;
-border-radius: 100%;
-color: var(--primary-color);
+.contact a {
+  margin: 30px;
+  padding: 15px 18px;
+  border-radius: 100%;
+  color: var(--primary-color);
 }
 
-.contact a:hover{
+.footer-source i {
+  color: var(--primary-color);
+}
+
+.footer-source {
+  font-size: 15px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.contact a:hover {
   background-color: var(--primary-color);
   color: white;
 }
 
-#email {
-  text-align: center;
-  display: block;
-  font-size: 28px;
-  text-decoration: none;
-  color: var(--primary-color);
-  margin: 5px;
-}
-
-#email:hover {
-  text-decoration: underline;
+.contact-info{
+  padding: 0px;
 }

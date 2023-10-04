@@ -14,13 +14,18 @@
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
     <link href="styles/index.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playball&family=Raleway&family=Roboto+Slab:wght@300&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/ccd5fd51d7.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" ;>
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Kate Mazhara</a>
+            <a class="navbar-brand" href="index.html" id="logo">KM</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,13 +33,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active headings" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link headings" href="index.html#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html#email">Contact</a>
+                        <a class="nav-link headings" href="index.html#tech-info">Tech Stack</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link headings" href="index.html#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link headings" href="index.html#contacts">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -61,91 +72,116 @@
             </div>
         </div>
     </div>
-    <div class="about-me">
+    <div class="about-me" id="about">
+        <br />
         <h2>
             About me
         </h2>
         <br />
-        <div class="row">
-            <div class="col-sm-6 mb-3 mb-sm-0">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">👩🏼‍💻 Experience</h5>
-                        <p class="card-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center"><i class="fa-solid fa-code"></i> Experience</h5>
+                            <p class="card-text">
 
 
-                            Front-end development
-                        </p>
+                                Front-end development
+                            </p>
 
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">👩🏼‍🎓 Education</h5>
-                        <p class="card-text">SheCodes Courses</p>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center"><i class="fa-solid fa-graduation-cap"></i> Education</h5>
+                            <p class="card-text">SheCodes Courses</p>
 
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="main-text">
             <p>
-                I'm a junior front-end developer with a passion for crafting captivating web experiences. Here you can
-                take a look at my projects.
-                Please don't hesitate to reach out and connect with me to discuss how we can work together to bring your
-                web ideas to
-                life.
+            <h5>
+                Bofore front-end
+            </h5>
+            I was an English teacher and worked with little kids. They tought me how to explore new things in a various
+            ways.
+            And taking into account the fact that I always wondered how my laptop is working and different programms are
+            running
+            I decided to dive into a new area - Web-development.
+            <br/> <br />
+
+            <h5>
+                Now
+            </h5>
+            I'm a junior front-end developer with a passion for crafting captivating web experiences. Here you can
+            take a look at my projects.
+            
+            
+            <br/>
+            Web development is a collaborative endeavor and I like working in a team. I enjoy cooperating with
+            designers, colleagues in development, and anyone with a passion for creating websites. <br /> <br />
+            So don't hesitate to reach out and connect with me to discuss how we can work together to bring your
+            web ideas to life.
             </p>
 
         </div>
-
-        <div class="experience">
-            <h2>
-                My Tech Stack
-            </h2>
-            <br /> <br />
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-3 ps-0 pe-0 tech-info">
-                        <img class="img-fluid" src="img/html.png" alt="" srcset="">
-                        <label>HTML</label>
-                    </div>
-                    <div class="col-sm-3 ps-0 pe-0 tech-info">
-                        <img class="img-fluid" src="img/css.png" alt="" srcset="">
-                        <label>CSS</label>
-                    </div>
-                    <div class="col-sm-3 ps-0 pe-0 tech-info">
-                        <img class="img-fluid" src="img/js.png" alt="" srcset="">
-                        <label>JavaScript</label>
-                    </div>
-                    <div class="col-sm-3 ps-0 pe-0 tech-info">
-                        <img class="img-fluid" src="img/vs studio.png" alt="" srcset="">
-                        <label>Editor</label>
-                    </div>
-                    <div class="col-sm-3 ps-0 pe-0 tech-info">
-                        <img class="img-fluid" src="img/api.png" alt="" srcset="">
-                        <label>API</label>
-                    </div>
-                    <div class="col-sm-3 ps-0 pe-0 tech-info">
-                        <img class="img-fluid" src="img/git.png" alt="" srcset="">
-                        <label>GitHub</label>
-                    </div>
-                    <div class="col-sm-3 ps-0 pe-0 tech-info">
-                        <img class="img-fluid" src="img/boostrap.png" alt="" srcset="">
-                        <label>Boostrap</label>
-                    </div>
-                    <div class="col-sm-3 ps-0 pe-0 tech-info">
-                        <img class="img-fluid" src="img/hosting.png" alt="" srcset="">
-                        <label>Hosting</label>
+        <div id="tech-info">
+            <br /><br />
+            <div class="experience">
+                <br /><br />
+                <h2>
+                    My Tech Stack
+                </h2>
+                <br /> <br />
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 ps-0 pe-0 tech-info">
+                            <img class="img-fluid" src="img/html.png" alt="" srcset="">
+                            <label>HTML</label>
+                        </div>
+                        <div class="col-sm-3 ps-0 pe-0 tech-info">
+                            <img class="img-fluid" src="img/css.png" alt="" srcset="">
+                            <label>CSS</label>
+                        </div>
+                        <div class="col-sm-3 ps-0 pe-0 tech-info">
+                            <img class="img-fluid" src="img/js.png" alt="" srcset="">
+                            <label>JavaScript</label>
+                        </div>
+                        <div class="col-sm-3 ps-0 pe-0 tech-info">
+                            <img class="img-fluid" src="img/vs studio.png" alt="" srcset="">
+                            <label>Editor</label>
+                        </div>
+                        <div class="col-sm-3 ps-0 pe-0 tech-info">
+                            <img class="img-fluid" src="img/api.png" alt="" srcset="">
+                            <label>API</label>
+                        </div>
+                        <div class="col-sm-3 ps-0 pe-0 tech-info">
+                            <img class="img-fluid" src="img/git.png" alt="" srcset="">
+                            <label>GitHub</label>
+                        </div>
+                        <div class="col-sm-3 ps-0 pe-0 tech-info">
+                            <img class="img-fluid" src="img/boostrap.png" alt="" srcset="">
+                            <label>Boostrap</label>
+                        </div>
+                        <div class="col-sm-3 ps-0 pe-0 tech-info">
+                            <img class="img-fluid" src="img/hosting.png" alt="" srcset="">
+                            <label>Hosting</label>
+                        </div>
                     </div>
                 </div>
+                <br /> <br />
             </div>
+        </div>
+        <div id="projects">
             <br /> <br />
-
             <h2 class="mb-3">
-                My works are colourful
+                My projects are colourful
             </h2>
             <br />
             <div class="weather-work">
@@ -157,8 +193,8 @@
                     Made with HTML, CSS and JavaScript
                 </p>
                 <div class="work-link">
-                    <a href=""><i class="fa-solid fa-link"></i> Live Preview</a>
-                    <a href=""><i class="fa-brands fa-github"></i> View code</a>
+                    <a href="https://monumental-raindrop-9c8b26.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i> Live Preview</a>
+                    <a href="https://github.com/kmeve/weather-application" target="_blank"><i class="fa-brands fa-github"></i> View code</a>
                 </div>
             </div>
 
@@ -187,35 +223,32 @@
                 </p>
 
                 <div class="work-link">
-                    <a href=""><i class="fa-solid fa-link"></i> Live Preview</a>
-                    <a href=""><i class="fa-brands fa-github"></i> View code</a>
+                    <a href="https://sparkling-manatee-6a9bed.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i> Live Preview</a>
+                    <a href="https://github.com/kmeve/sketch-time" target="_blank"><i class="fa-brands fa-github"></i> View code</a>
                 </div>
             </div>
+        </div>
+
+        <div id="contacts">
+            <br /><br />
+            <h2 class="mb-5">
+                Contacts
+            </h2>
+            
+            <h4>
+                Email
+            </h4>
+            <p class="contact-info">
+                km.eve1417@gmail.com
+            </p>
+            <h4>
+                Telegram
+            </h4>
+            <p class="contact-info">
+                @katyaevaa
+            </p>
+
             <footer>
-                <h2>
-                    Contacts
-                </h2>
-                <p>
-                    Web development is a collaborative endeavor and I adore working in a team. I enjoy cooperating with
-                    designers,
-                    colleagues in development, and anyone with a passion for creating websites. <br /> <br />
-                    So don't hesitate to reach out and connect with me to discuss how we can work together to bring your
-                    web ideas to life.
-                </p>
-                <h4>
-                    Mail
-                </h4>
-                <p>
-                    km.eve1417@gmail.com
-                </p>
-                <h4>
-                    Telegram
-                </h4>
-                <p>
-                    @katyaevaa
-                </p>
-
-
                 <div class="contact">
                     <a href="mailto: km.eve1417@gmail.com" target="_blank"><i
                             class="fa-solid fa-envelope fa-lg"></i></a>
@@ -225,10 +258,12 @@
                             class="fa-brands fa-linkedin fa-lg"></i></a>
                 </div>
 
-                <p>
-                    Open-source code <a href=""><i class="fa-brands fa-github"></i></a> by Kateryna Mazhara
-                </p>
-            </footer>
+        </div>
+
+        <p class="footer-source">
+            Open-source code <a href="https://github.com/kmeve/my-portfolio" target="_blank"><i class="fa-brands fa-github"></i></a> by Kateryna Mazhara
+        </p>
+        </footer>
 </body>
 
 </html>
